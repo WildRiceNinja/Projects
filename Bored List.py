@@ -21,7 +21,7 @@ while exit == False:
     elif inpt == "Check":
         with open('To-Do list', "r") as rList:
             print(rList.read())
-    #elif inpt == "Clear":
-
-        
+    elif inpt == "Clear":
+        with open('To-Do list', "w") as wlist:
+            wlist.write("")
 
